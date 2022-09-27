@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 71%;
+    row-gap: 2%;
+    column-gap: 1.5%;
+    margin-left: 13%;
+}
+
+.grid-item-productos {
+    @extend .jc-c;
+    background-color: #352f2b;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,80 @@
+/**MAIN**/
+
+.main-contacto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 30px;
+    height: 10%;
+}
+
+.contenedor-contacto {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.cont {
+    margin-top: 4%;
+
+}
+
+.div-btn-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contacto {
+    border-radius: $border-r;
+    background-color: $cards-bg;
+    padding: 1%;
+    color: white;
+    border: solid 1px white;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.80s;
+    }
+}
+
+.div-cont {
+    background-color: $cards-bg;
+    border-radius: $border-r;
+    width: 45%;
+    margin-left: 2%;
+    padding: 1%;
+    height: 49vh;
+
+    .contacto-h2 {
+        color: $text;
+    }
+
+    .p-contacto {
+        font-size: large;
+    }
+}
+
+.div-form {
+    background-color: $cards-bg;
+    border-radius: $border-r;
+    padding: 1%;
+    width: 45%;
+    margin-left: 3%;
+}
+
+.mb-3 {
+    width: 100%;
+    display: block;
+    color: white;
+
+    .label-form {
+        background-color: $h;
+    }
+}
+
+/**FOOTER**/
+
+.footer-contacto {
+    background-color: #141414;
+    margin-top: 4%;
+    height: 300px
+}

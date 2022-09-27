@@ -1,0 +1,174 @@
+/**MAIN**/
+
+.main-productos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 30px;
+    height: 600px;
+    margin-top: 2%;
+}
+
+.text-productos{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+.text-productos-price{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size:145%;
+}
+.products {
+    background-color: #463d37;
+    border-radius: 8px;
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-img {
+    width: 20vh;
+}
+
+.price-b {
+    color: white;
+    background-color: #1f1e1e;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 11%;
+    height: 65%;
+    &:hover {
+        background-color: #463d37;
+    }
+}
+#boton-carrito {
+    border:3px solid $text;   
+    color: $text;
+    font-size:x-large;
+    font-family: 'Kantumruy Pro', sans-serif;
+    background-color: #141414;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: all .3s;
+    margin-right: 28%;
+}
+#boton-carrito:hover {
+    color: white;
+    border: 3px solid $db;
+    background-color: $db;
+    color: white;
+}
+
+#boton-carrito:focus {
+    outline: none;
+}
+
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-carrito {
+    position: relative;
+    border-radius: 8px;
+    background-color: #141414;
+    min-width: 30%;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+}
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+
+.modal-carrito h3 {
+    color: $text;
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 5%;
+    border-bottom: 1px solid $text;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color: $text;
+    border: none;
+    background-color: #141414;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+    padding-top: 3%;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 7  00;
+}
+
+.boton-eliminar {
+    background-color: $text;
+    font-family: 'Comfortaa', cursive;
+    color: #141414;
+    font-size: medium;
+    font-weight: 700;
+    padding: 2%;
+    border-radius: 8px;
+    border: none;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+    background-color: $db;
+    color: white;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+.carrito-elemento{
+    border-left: 5px solid $text;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 2% 0;
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+ 
+}   
+.product-card{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    padding-top: 3%;
+}
+
+/**FOOTER**/
+
+.footer-productos {
+    background-color: #141414;
+    margin-top: 28%;
+    height: 300px
+}

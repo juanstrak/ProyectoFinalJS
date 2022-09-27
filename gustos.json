@@ -1,0 +1,56 @@
+[
+    {
+        "Categoria": "Comunes",
+        "Nombre":"Cortado",
+        "Intensidad": "8",
+        "Rinde":"16 tazas"
+    },
+    {
+        "Categoria": "Comunes",
+        "Nombre":"Cafe Con Leche",
+        "Intensidad": "7",
+        "Rinde":"16 tazas"
+    },
+    {
+        "Categoria": "Comunes",
+        "Nombre":"Capuccino",
+        "Intensidad": "1",
+        "Rinde":"8 tazas"
+    },
+    {
+        "Categoria": "Especiales",
+        "Nombre":"Mocha",
+        "Intensidad": "-",
+        "Rinde":"8 tazas"
+    },
+    {
+        "Categoria": "Especiales",
+        "Nombre":"Chococcino",
+        "Intensidad": "-",
+        "Rinde":"8 tazas"
+    },
+    {
+        "Categoria": "Especiales",
+        "Nombre":"Canela",
+        "Intensidad": "2",
+        "Rinde":"16 tazas"
+    },
+    {
+        "Categoria": "Starbucks",
+        "Nombre":"Carmel",
+        "Intensidad": "-",
+        "Rinde":"6 tazas"
+    },
+    {
+        "Categoria": "Starbucks",
+        "Nombre":"Vanilla",
+        "Intensidad": "-",
+        "Rinde":"6 tazas"
+    },
+    {
+        "Categoria": "Starbucks",
+        "Nombre":"House Blend",
+        "Intensidad": "8",
+        "Rinde":"12 tazas"
+    }
+]

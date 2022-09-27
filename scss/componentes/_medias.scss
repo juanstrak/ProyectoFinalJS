@@ -1,0 +1,238 @@
+@media screen and (max-width: 700px) {
+
+    /** ALL **/
+
+    .logokm {
+        width: 90%;
+        margin-left: 18%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-all {
+        background-color: #141414;
+        height: 200px;
+        margin-top: 44%;
+    }
+
+    .footer-cont {
+        display: flex;
+        align-content: flex-start;
+        justify-content: center;
+        padding-top: 8%;
+    }
+
+    .footer-creador {
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    .cont-redes-footer {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .logoredes {
+        width: 15%;
+        margin: 0.6%;
+    }
+
+    .text-p {
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .footer-text {
+        text-decoration: none;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-size: 65%;
+    }
+
+    .Logo-footer {
+        width: 100%;
+    }
+
+    .cont-logo-footer {
+        width: 65%;
+    }
+
+    .p-footer {
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 75%;
+    }
+
+    /** PAGE INDEX **/
+
+    .carousel {
+        margin-top: 4%;
+    }
+
+    .p-index {
+        font-size: 75%;
+    }
+
+    .cont-cate {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        align-items: center;
+    }
+
+    .p-index-cate {
+        font-size: 105%;
+        width: 80%;
+        padding: 1%;
+        margin-left: 9%;
+    }
+
+    .cates {
+        width: 68%;
+        padding: 3%;
+        margin: 2%;
+    }
+
+    .p-comu {
+        font-size: 105%;
+    }
+
+    .p-espe {
+        font-size: 105%;
+    }
+
+    .p-star {
+        font-size: 105%;
+    }
+
+    .img-product-index {
+        width: 18vh;
+    }
+
+    .cate-a {
+        font-size: 85%;
+    }
+
+    .footer-index {
+        margin-top: 265%;
+        height: 200px
+    }
+
+    /** PAGE PRODUCTOS **/
+    
+    .text-productos-promo {
+        font-size: 85%;
+    }
+
+    .product-img {
+        width: 15vh;
+    }
+
+    .price {
+        font-size: 125%;
+    }
+
+    .footer-productos {
+        height: 200px;
+        margin-top: 350%;
+    }
+
+    /** PAGE PROMOCIONES **/
+
+    .price {
+        font-size: 125%;
+    }
+
+    .cont-promos {
+        margin-left: 3%;
+    }
+
+    .products-promo {
+        border-radius: 8px;
+        padding: 2%;
+        margin: 10px;
+        background-color: #352f2b;
+        align-items: center;
+        flex-direction: column;
+        width: 85%;
+        margin-left: 2%;
+    }
+
+    .promo-img {
+        width: 10vh;
+    }
+
+    .mas-promos {
+        font-size: large;
+        margin-top: 13%;
+    }
+
+    .footer-promociones {
+        margin-top: 20%;
+        height: 200px
+    }
+
+    /** PAGE CONTACTO **/
+
+    .contenedor-contacto {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-cont {
+        width: 89%;
+        margin-left: 2%;
+        padding: 2%;
+        margin-top: 4%;
+        height: 84%;
+    }
+
+    .div-form {
+        padding: 2%;
+        width: 89%;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    .footer-contacto {
+        background-color: #141414;
+        margin-top: 4%;
+        height: 200px
+    }
+
+    /** PAGE NOSOTROS **/
+
+    .titulo-nosotros {
+        color: white;
+        margin-left: 8%;
+        font-size: x-large;
+        margin-top: 4%;
+    }
+
+    .contenedor {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .footer-nosotros {
+        margin-top: 238%;
+        height: 200px;
+    }
+
+
+    /** GRID **/
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 75%;
+        row-gap: 9px;
+        margin-left: 13%;
+    }
+
+    .grid-item-productos {
+        background-color: #352f2b;
+        align-items: center;
+        flex-direction: column;
+    }
+}

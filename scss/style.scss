@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/** BASE **/
+@import 'base/colores';
+@import 'base/variables';
+
+/** PAGES **/
+@import 'pages/index';
+@import 'pages/nosotros';
+@import 'pages/productos';
+@import 'pages/gustos';
+@import 'pages/contacto';
+
+/** COMPONENTES **/
+@import 'componentes/all';
+@import 'componentes/grid';
+@import 'componentes/medias';
+@import 'componentes/extends';
